@@ -42,14 +42,8 @@ Typically we use personal GitHub credentials when working with the repository, s
 
 This GitHub page is the place where we manage issues and pull requests, but it is rarely used to create branches and manage files while writing. There are other tools that work better for those tasks.
 
-## Using the publishing platform
-
-The APEX team provides the excellent tools that we use to publish our documentation sets. They have their own documentation here:
-[Docs contributor guide](https://review.docs.microsoft.com/en-us/help/contribute/?branch=master).
-
-The OPS portal allows us to monitor the health of the build system that processes our md files and publishes our finished documentation to the web.
-[OPS Portal](https://ops.microsoft.com/#/login). Once you are in the OPS portal, you will want to install a plug-in that allows pushing content from the Master branch to the Live branch. This can be done directly from Github using the command line, but the process is complicated and can result in tangled file histories is care is not taken. The plug-in is less complicated to use and more reliable.
-
 ## Getting started writing:
 
-The next topic in this section will walk you through the day to day process of writing a topic.  [Writing workflow](`/documentation-workflow/writing-workflow)
+Set up your writing environment: [Tools for writing](`/documentation-workflow/tools-for-writing)
+
+ The day to day process of writing a topic.  [Writing workflow](`/documentation-workflow/writing-workflow)
