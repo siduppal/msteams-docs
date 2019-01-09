@@ -11,9 +11,9 @@ This content is for developers, people who have been tasked with extending the T
 
 This audience needs:
 
-- Short, succinct topics that explain what teams apps are, and how to use them to do specific tasks.
-- Comprehensive documentation that covers every feature of the platform. This is the first place they will look.
-- Simple and direct writing. Don't assume that your reader is as skilled in the English language as you are.
+- Short, succinct topics that explain what teams apps are, and how to write them to do specific tasks.
+- Comprehensive documentation that covers every programing feature of the platform. This is the first place they will look.
+- Simple and direct writing. Don't assume that your reader is as skilled in the English language as you are. This also improves search results.
 - Documents that share a common style. To achieve this across all Microsoft properties follow the Microsoft and Office Style guides.
 
 ## Microsoft and Office provide writing style guides
@@ -27,11 +27,11 @@ All of the Teams Platform documentation (our developer docs for writing teams ap
 
 [MicrosoftDocs/msteams-docs](https://github.com/MicrosoftDocs/msteams-docs)
 
-Anyone can clone the documentation set and work on revisions for later integration back into the master branch, however if you want to work more closely with the doc set and use the preview functionality that our build system provides you will need to have an internal Microsoft Account, and be added as a contributor to the repo. At the moment Bill Bliss is the administrator for this.
+Anyone can clone the documentation set and work on revisions for later integration back into the master branch, however if you want to work more closely with the doc set and use the preview functionality that our build system provides you will need to have an internal Microsoft Account, and be added as a contributor to the repo.
 
-Typically we use personal GitHub credentials when working with the repository, so you will need to have your own GitHub credentials before requesting access from Bill.
+Typically we use personal GitHub credentials when working with the repository, so you will need to have your own GitHub credentials before requesting access from the site administrator.
 
-This GitHub page is the place where we manage issues and pull requests, but it is rarely used to create branches and manage files while writing. There are other tools that work better for those tasks.
+This GitHub page is the place where we manage issues and review pull requests, but it is rarely used to create branches and manage files while writing. There are other tools that work better for those tasks. See [Tools for writing](`/documentation-workflow/tools-for-writing) for more information on that.
 
 ## Other Teams-related documentation sets
 
@@ -42,7 +42,7 @@ Teams apps also depend on technologies that are not directly developed by the Te
 - **Bot Framework**, which is now owned by the Azure team. Teams uses the Bot Framework, and our docs need to be kept in sync with theirs.
 - **Microsoft Graph**, which is an external documentation set that Bill Bliss has been maintaining.
 
-## Get started writing:
+## Get started writing
 
 - Set up your writing environment [Tools for writing](`/documentation-workflow/tools-for-writing)
 
