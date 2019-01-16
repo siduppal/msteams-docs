@@ -29,17 +29,19 @@ Once a week, check in with stakeholders and discuss priority for work items in t
 
 1. Use the Github desktop client to create a new branch off of master in the msteams-platform project.
 
-2. Open Visual Studio Code from the root of your local repo. Click on the files icon in the upper left corner of the ide and confirm that you see the source for the repo displayed in the Explorer window.
+## Edit files in Code
 
-3. Use VS.Code to add files, delete files, and edit existing files.
+1. Open Visual Studio Code from the root of your local repo. Click on the files icon in the upper left corner of the ide and confirm that you see the source for the repo displayed in the Explorer window.
 
-4. Regularly check in your changes by pushing your branch to GitHub. This is done in the desktop GitHub client. Start by committing to your local repo using the button in the lower left corner of the screen. This updates your changes locally on your machine. In the tool bar you should now see an option to "Push Origin". Clicking this will send your changes to the GitHub server that contains all of our branches.
+2. Use VS.Code to add files, delete files, and edit existing files.
 
-5. Preview your changes on the preview site. It usually takes around 5 min. for the build engine to create a new preview based on your changes. You can view your preview by adding "review" to the beginning of the url for the doc set. When viewing the review version of the doc set there is a drop down at the top of the page that lets you select the branch to preview. You may have to click this several times to get your branch to show up if it is new.
+3. Regularly check in your changes by pushing your branch to GitHub. This is done in the desktop GitHub client. Start by committing to your local repo using the button in the lower left corner of the screen. This updates your changes locally on your machine. In the tool bar you should now see an option to "Push Origin". Clicking this will send your changes to the GitHub server that contains all of our branches.
+
+4. Preview your changes on the preview site. It usually takes around 5 min. for the build engine to create a new preview based on your changes. You can view your preview by adding "review" to the beginning of the url for the doc set: [Preview site](https://review.docs.microsoft.com/en-us/microsoftteams/platform/overview?branch=master). When viewing the review version of the doc set there is a drop down at the top of the page that lets you select the branch to preview. You may have to click this several times to get your branch to show up if it is new.
 
 ## Merge your changes into the Master
 
-When you are ready to merge your changes back into master it is good practice to have someone else review your changes as a last sanity check. Do this by opening a pull request (PR) in GitHub.  Click on Branch>Create pull request, which will open the browser and send you back to the GitHub website to complete your pull request.
+When you are done editing and are ready to merge your changes back into master it is good practice to have someone else review your changes as a last sanity check. Do this by opening a pull request (PR) in GitHub.  Click on Branch>Create pull request, which will open the browser and send you back to the GitHub website to complete your pull request.
 
 Once your changes have been reviewed and updated as needed, use the GitHub website to manage the merge back into master. Browse to your PR and follow the instructions there.
 
@@ -50,13 +52,15 @@ You should now preview your changes by setting the preview site branch to master
 
 ## Using the publishing platform to push to live
 
+Usually only one person manages pushing to live, and they try to limit pushes to once a day. This task is done using the OPS portal site.
+
 The APEX team provides the excellent tools that we use to publish our documentation sets. They have their own documentation here:
 [Docs contributor guide](https://review.docs.microsoft.com/en-us/help/contribute/?branch=master).
 
 The OPS portal allows us to monitor the health of the build system that processes our md files and publishes our finished documentation to the web.
 [OPS Portal](https://ops.microsoft.com/#/login). Once you are in the OPS portal, you will want to install a plug-in that allows pushing content from the Master branch to the Live branch. This can be done directly from Github using the command line, but the process is complicated and can result in tangled file histories is care is not taken. The plug-in is less complicated to use and more reliable.
 
-Just in case, the command line replacement for the plug in is:
+Just in case, the git command line replacement for the plug in is:
   git checkout master
   git pull
   git checkout live
