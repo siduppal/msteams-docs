@@ -58,7 +58,7 @@ The APEX team provides the excellent tools that we use to publish our documentat
 [Docs contributor guide](https://review.docs.microsoft.com/en-us/help/contribute/?branch=master).
 
 The OPS portal allows us to monitor the health of the build system that processes our md files and publishes our finished documentation to the web.
-[OPS Portal](https://ops.microsoft.com/#/login). Once you are in the OPS portal, you will want to install a plug-in that allows pushing content from the Master branch to the Live branch. This can be done directly from Github using the command line, but the process is complicated and can result in tangled file histories is care is not taken. The plug-in is less complicated to use and more reliable.
+[OPS Portal](https://ops.microsoft.com/#/login). Once you are in the OPS portal, you will want to install a plug-in that allows pushing content from the Master branch to the Live branch. This can be done directly from GitHub using the command line, but the process is complicated and can result in tangled file histories is care is not taken. The plug-in is less complicated to use and more reliable.
 
 Just in case, the git command line replacement for the plug in is:
   git checkout master
