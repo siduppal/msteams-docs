@@ -25,7 +25,6 @@ Once a week, check in with stakeholders and discuss priority for work items in t
 
 5. Decide where the new information should go in the TOC of the documentation set. This is usually harder than it seems.
 
-
 ## Using the publishing platform
 
 The APEX team provides the excellent tools that we use to publish our documentation sets. They have their own documentation here:

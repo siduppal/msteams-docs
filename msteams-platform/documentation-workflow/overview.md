@@ -46,4 +46,4 @@ Teams apps also depend on technologies that are not directly developed by the Te
 
 - Set up your writing environment [Tools for writing](`/documentation-workflow/tools-for-writing)
 
- - The day to day process of writing a topic [Writing workflow](`/documentation-workflow/writing-workflow)
+- The day to day process of writing a topic [Writing workflow](`/documentation-workflow/writing-workflow)

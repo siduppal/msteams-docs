@@ -10,7 +10,8 @@ These are the tools I use. YMMV. Other topics here will assume that these tools 
 
 ## Markdown
 
-All of our source documents are written in MarkDown, a simple text format that has the extension md.  Specifically we use the GitHub flavor of MD, as I recall.  You can find the answer to any question you might have on how to use MD with a simple web search. Try to keep things as simple as possible - no tables within tables, no nested lists, that sort of thing. It makes your writing much easier to read, and limits build issues.
+All of our source documents are written in MarkDown, a simple text format that has the extension md.  Specifically we use the GitHub flavor of MD.  You can find the answer to any question you might have on how to use MD with a simple web search.
+Try to keep things as simple as possible - no tables within tables, no nested lists, that sort of thing. It makes your writing much easier to read, and limits build and rendering issues.
 
 ## GitHub
 
@@ -29,7 +30,7 @@ If you have access to GitHub on the web and can access [MicrosoftDocs/msteams-do
 Your first step is to clone the MicrosoftDocs/msteams-docs repo to your local machine. Since I'm already signed in and have a local repo, I can't walk through the steps without messing up this writing session. As I recall, it was pretty obvious. You want to File>Clone Repository, and in the filter box in the Clone a repository dialog, enter `msteams-docs'. Take a moment to set up your local path - this is where all your local copies of all files will be stored.
 
 >[NOTE]
-Don't edit files in the master branch until you understand what you are doing.
+Don't edit files directly in the master branch until you understand what you are doing.
 
 The files stored on your local machine are now a copy of everything that is in the master branch of msteams-docs at this particular moment in time. You don't want to edit any of these files directly - this is after all the master. What you need to do is create a "branch" off of master to hold your changes until you are ready to have them reviewed and merged into master.
 
@@ -41,7 +42,7 @@ We have a simple naming convention for branches. It is not enforced in any way, 
 
 'Yourname-description-with-hyphens'.  For 'Yourname' first or last works fine - whatever you are comfortable with.
 
-If you now edit one of these files and commit it in locally, nothing will show up on the server until you click "Push origin" in the toolbar of the GitHub desktop. This will push your branch back to the server, and include your changes.
+If you now edit a file in your branch, and commit it in locally, nothing will show up on the server until you click "Push origin" in the toolbar of the GitHub desktop. This will push your branch back to the server, and include your changes.
 
 When you are ready to merge your changes back into master it is good practice to have someone else review your changes as a last sanity check. Do this by opening a pull request (PR) in GitHub.  Click on Branch>Create pull request, which will open the browser and send you back to the GitHub website to complete your pull request.
 
