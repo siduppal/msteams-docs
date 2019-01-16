@@ -25,7 +25,30 @@ Once a week, check in with stakeholders and discuss priority for work items in t
 
 5. Decide where the new information should go in the TOC of the documentation set. This is usually harder than it seems.
 
-## Using the publishing platform
+## Create a branch to hold your new work
+
+1. Use the Github desktop client to create a new branch off of master in the msteams-platform project.
+
+2. Open Visual Studio Code from the root of your local repo. Click on the files icon in the upper left corner of the ide and confirm that you see the source for the repo displayed in the Explorer window.
+
+3. Use VS.Code to add files, delete files, and edit existing files.
+
+4. Regularly check in your changes by pushing your branch to GitHub. This is done in the desktop GitHub client. Start by committing to your local repo using the button in the lower left corner of the screen. This updates your changes locally on your machine. In the tool bar you should now see an option to "Push Origin". Clicking this will send your changes to the GitHub server that contains all of our branches.
+
+5. Preview your changes on the preview site. It usually takes around 5 min. for the build engine to create a new preview based on your changes. You can view your preview by adding "review" to the beginning of the url for the doc set. When viewing the review version of the doc set there is a drop down at the top of the page that lets you select the branch to preview. You may have to click this several times to get your branch to show up if it is new.
+
+## Merge your changes into the Master
+
+When you are ready to merge your changes back into master it is good practice to have someone else review your changes as a last sanity check. Do this by opening a pull request (PR) in GitHub.  Click on Branch>Create pull request, which will open the browser and send you back to the GitHub website to complete your pull request.
+
+Once your changes have been reviewed and updated as needed, use the GitHub website to manage the merge back into master. Browse to your PR and follow the instructions there.
+
+You should now preview your changes by setting the preview site branch to master. Check for conflicts and issues here before pushing master to live.
+
+>[Note]
+>Changes to the doc set will not show up publicly until you push master to live.  Never edit live directly - it should only be updated from master in order to protect from versioning issues.
+
+## Using the publishing platform to push to live
 
 The APEX team provides the excellent tools that we use to publish our documentation sets. They have their own documentation here:
 [Docs contributor guide](https://review.docs.microsoft.com/en-us/help/contribute/?branch=master).
